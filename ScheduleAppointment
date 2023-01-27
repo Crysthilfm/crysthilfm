@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="JunsTalyer.css">
+    </head>
+    
+    <title>PaintJobs</title>
+    
+    <!-- Homepage tilte -->
+    <body>
+        <div class="frontpage-PaintJob">
+            <nav class="navbar navbar-inverse navbar-custom">
+                <img src="imgSources/logo-no-background.png" class="logo" height="80px" href="#">
+                <nav>
+                    <div class="smaller-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="linkItems2"><a href="#">Schedule an appointment</a></li>
+                            <li class="linkItems2"><a href="#">Reviews</a></li>
+                            <li class="linkItems2"><a href="#"><img src="imgSources/25-256140_facebook-logo-grey-png.png" height="30px" class="socialsLogo"></a></li>
+                            <li class="linkItems2"><a href="#"><img src="imgSources/twitterlogo_white.png" height="30px" class="socialsLogo"></a></li>
+                        </ul>
+                    </div>   
+                    <div class="nav-custom">
+                        <ul class="nav navbar-nav">
+                        <li class="linkItems"><a href="JunTalyer_homepage">Car Repair</a></li>
+                        <li class="linkItems"><a href="#">Paint Job</a></li>
+                        <li class="linkItems"><a href="#">Locations</a></li>
+                        <li class="linkItems"><a href="#">Contacts</a></li>
+                    </ul></div>
+                </nav>
+            </nav>
+            <div>
+                <h1>Jun's Talyer <br> ScheduleAppointment</h1>
+                
+            </div>
+        </div>
+        
+
+        <div class="footer">
+            <img src="ImgSources/logo-black-NoBackground.png" class="logo" height="120px" href="#">
+            <img src="ImgSources/carFooter.png" class="footerImg" height="150px" href="#">
+            <div class="footerContacts">
+                <img src="ImgSources/LocationPin.png" class="footerIcons" height="40px" href="#">
+                <p class="footerText">Ruhale St. Pagkalinawan Home, Tipas Taguig City</p>
+            </div>
+            <div class="footerContacts">
+                <img src="ImgSources/telephone.png" class="footerIcons" height="40px" href="#">
+                <p class="footerText">0948-066-8024</p>
+            </div>
+        </div>
+    </body>
+</html>

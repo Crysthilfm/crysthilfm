@@ -1,0 +1,204 @@
+/* Custome Fonts */
+@font-face {
+    font-family: 'ProductSans';
+    src: url(Fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    src: url(Fonts/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'RaleWay';
+    src: url(Fonts/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ProductSansBold';
+    src: url(Fonts/Product\ Sans\ Bold.ttf);
+}
+
+
+/* Text Styles*/
+h1 {
+    font-family: 'ProductSans';
+    font-size: 60;
+    padding-top: 15%;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+p {
+    font-family: 'AlegreyaSans';
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Raleway';
+    font-size: 40;
+    color: white;
+}
+
+
+/* ============================= Header ==============================*/
+
+.Header {
+    height: 130px;
+    width: 100%;
+    background-color: 660708;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+    margin: 15px;
+}
+
+.logo:hover {
+    filter: drop-shadow(16px 16px 20px rgb(22, 11, 11));
+}
+
+.socialsLogo {
+    padding-bottom: 10px;
+}
+.socialsLogo:hover {
+    filter: invert(100%);
+}
+
+.navbar-custom {
+    background-color: 660708;
+    border-width: 0px;
+    height: 110px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 0px;
+    opacity: 0.9;
+    align-items: center;
+    color: white;
+}
+.navbar-custom:hover {
+    opacity: .95;
+}
+.nav-custom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    margin-right: 30px;
+}
+
+.smaller-nav {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    color: white;
+    margin-right: 30px;
+}
+
+.linkItems {
+    margin-left: 60px;
+    font-family: ProductSansBold;
+    font-size: 20px;
+    border: solid 1px A4161A;
+    color:white;
+}
+
+.linkItems2 {
+    margin-left: 15px;
+    font-family: 'RaleWay';
+    font-size: 13px;
+}
+
+/* ============================= Footer ==============================*/
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: D3D3D3;
+    margin:auto;
+    float:left;
+    text-align: center;
+}
+.footerContacts {
+    margin-top: 10px;
+    height: 40px;
+    width: 60%;
+    color: rgb(27, 27, 27);
+    margin: auto;
+    padding: 1px;
+    padding-left: 10%;
+    padding-top: 3%;
+    text-align: left;
+}
+.footerText{
+    font-family: 'AlegreyaSans';
+    font-size: 20px;
+}
+.footerIcons {
+    float: left;
+    margin-right: 8px;
+}
+.footerImg {
+    float: right;
+}
+
+/* =================================== Content CarPaintJob ========================================== */
+
+.frontpage-PaintJob {
+    background-image: url("imgSources/frontpage_bg2.jpg");
+    background-color: black;
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: brightness(80%);
+}
+
+.contentHolder1 {
+    text-align: center;
+    height: 670px;
+    width: 50%;
+    background-color: 161A1D;
+    float:right;
+    margin:auto;
+}
+.contentHolder2 {
+    text-align: center;
+    height: 670px;
+    width: 50%;
+    background-color: 0B090A;
+    float:left;
+    margin:auto;
+}
+.colorHolder1 {
+    text-align: center;
+    height: 500px;
+    width: 40%;
+    background-color: D3D3D3;
+    margin: 5%;
+    float:left;
+}
+.colorHolder2 {
+    text-align: center;
+    height: 500px;
+    width: 40%;
+    background-color: D3D3D3;
+    margin: 5%;
+    float:right;
+}
+
+/* =================================== Content Schedule Appointment ========================================== */
+.frontpage-ScheduleApp {
+    background-image: url("imgSources/scheduleApp.jpg");
+    background-color: black;
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: brightness(80%);
+}
+
+.requestDiv{
+    height: 800px;
+    width: 100%;
+    margin:auto;
+}
